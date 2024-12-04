@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="lomiri-nextcloud-caldav">
+    <type>caldav</type>
+    <name>Calendar</name>
+    <provider>nextcloud</provider>
+    <icon>calendar</icon>
+    <translations>lomiri-online-accounts-plugins-caldav</translations>
+</service>

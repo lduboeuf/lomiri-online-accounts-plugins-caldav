@@ -1,0 +1,2 @@
+usr/share/accounts/services/lomiri/lomiri-nextcloud-caldav.service
+etc/buteo/profiles/sync/lomiri-nextcloud-caldav.xml

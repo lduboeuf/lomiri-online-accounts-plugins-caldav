@@ -1,0 +1,79 @@
+Source: lomiri-online-accounts-plugins-caldav
+Section: misc
+Priority: optional
+Maintainer: UBports Developers <devs@ubports.com>
+Build-Depends: debhelper (>= 12),
+               intltool,
+               cmake,
+               gettext,
+               libaccounts-glib-dev,
+               liblomiri-online-accounts-plugin-dev (>= 0.13),
+               pkgconf,
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+Homepage: https://gitlab.com/ubports/development/core/lomiri-online-accounts-plugins-caldav
+Vcs-Git: https://gitlab.com/ubports/development/core/lomiri-online-accounts-plugins-caldav.git
+Vcs-Browser: https://gitlab.com/ubports/development/core/lomiri-online-accounts-plugins-caldav
+
+
+Package: lomiri-online-accounts-plugin-nextcloud-caldav
+Architecture: all
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends},
+Conflicts: lomiri-sync-monitor-loa
+Depends: ${misc:Depends},
+         lomiri-online-accounts-plugin-caldav-generic (>= ${source:Version}),
+         qml-module-lomiri-components,
+         qml-module-lomiri-onlineaccounts,
+Description: Online account plugin for Lomiri - Nextcloud CalDAV
+ Lomiri Online Accounts is an API / library framework to mediate
+ centralized account management for remote services.
+ .
+ This package provides a LOA plugin for managing CalDAV credentials
+ stored in Nextcloud.
+
+Package: lomiri-online-accounts-plugin-owncloud-caldav
+Architecture: all
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends},
+Conflicts: lomiri-sync-monitor-loa
+Depends: ${misc:Depends},
+         lomiri-online-accounts-plugin-caldav-generic (>= ${source:Version}),
+         qml-module-lomiri-components,
+         qml-module-lomiri-onlineaccounts,
+Description: Online account plugin for Lomiri - Owncloud CalDAV
+ Lomiri Online Accounts is an API / library framework to mediate
+ centralized account management for remote services.
+ .
+ This package provides a LOA plugin for managing CalDAV credentials
+ stored in ownCloud.
+
+Package: lomiri-online-accounts-plugin-caldav-generic
+Architecture: all
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends},
+Conflicts: lomiri-sync-monitor-loa
+Depends: ${misc:Depends},
+         qml-module-lomiri-components,
+         qml-module-lomiri-onlineaccounts,
+Description: Online account plugin for Lomiri - Generic CalDAV
+ Lomiri Online Accounts is an API / library framework to mediate
+ centralized account management for remote services.
+ .
+ This package provides a LOA plugin for managing generic CalDAV server
+ credentials.
+
+Package: lomiri-online-accounts-plugin-google-caldav
+Architecture: all
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends},
+Conflicts: lomiri-sync-monitor-loa
+Depends: ${misc:Depends},
+         qml-module-lomiri-components,
+         qml-module-lomiri-onlineaccounts,
+Description: Online account plugin for Lomiri - Google Calendar
+ Lomiri Online Accounts is an API / library framework to mediate
+ centralized account management for remote services.
+ .
+ This package provides a LOA plugin for managing generic CalDAV server
+ credentials.

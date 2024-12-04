@@ -1,0 +1,68 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: lomiri-online-accounts-plugins-caldav
+Upstream-Contact: UBports developers <developers@ubports.com>
+Source: https://gitlab.com/ubports/development/core/lomiri-online-accounts-plugins-caldav
+
+Files: AUTHORS
+ CMakeLists.txt
+ ChangeLog
+ README.md
+ accounts/CMakeLists.txt
+ accounts/plugin/CMakeLists.txt
+ accounts/plugin/g16.png
+ accounts/plugin/generic-caldav.provider.in
+ accounts/plugin/online-accounts-caldav.svg
+ accounts/plugin/online-accounts-caldav.png
+ accounts/plugin/qml/Main.qml
+ accounts/plugin/qml/NewAccount.qml
+ accounts/services/CMakeLists.txt
+ accounts/services/lomiri-generic-caldav.service.in
+ accounts/services/lomiri-nextcloud-caldav.service.in
+ accounts/services/lomiri-owncloud-caldav.service.in
+ buteo/CMakeLists.txt
+ buteo/sync-profiles/CMakeLists.txt
+ buteo/sync-profiles/lomiri-generic-caldav.xml
+ buteo/sync-profiles/lomiri-nextcloud-caldav.xml
+ buteo/sync-profiles/lomiri-owncloud-caldav.xml
+ its/providers.its
+ its/providers.loc
+ its/services.its
+ its/services.loc
+ po/CMakeLists.txt
+ po/LINGUAS
+ po/POTFILES.in
+ po/lomiri-online-accounts-plugins-caldav.pot
+Copyright: 2014, Canonical Ltd.
+  2024, Lionel Duboeuf <lduboeuf@ouvaton.org>
+License: GPL-3
+Comment:
+ Assuming same license as found in COPYING file.
+ .
+ Assuming copyright holdership from README.md file.
+
+Files: po/*.po
+Copyright: 2024, UBports Foundation
+License: GPL-3
+Comment:
+ Assuming same license as found in COPYING file.
+
+Files: debian/*
+Copyright: 2012, Ken VanDine <ken.vandine@canonical.com>
+  2024, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+License: GPL-3
+
+License: GPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, version 3 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in `/usr/share/common-licenses/GPL-3'

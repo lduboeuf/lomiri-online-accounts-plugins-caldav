@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="lomiri-google-caldav">
+    <type>caldav</type>
+    <name>Google Calendar</name>
+    <provider>google</provider>
+    <icon>calendar</icon>
+    <translations>lomiri-online-accounts-plugins-caldav</translations>
+</service>

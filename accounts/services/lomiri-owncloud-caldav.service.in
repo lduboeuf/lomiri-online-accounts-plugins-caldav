@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="lomiri-owncloud-caldav">
+  <type>caldav</type>
+  <name>Calendar</name>
+  <provider>owncloud</provider>
+  <icon>calendar</icon>
+  <translations>lomiri-online-accounts-plugins-caldav</translations>
+</service>

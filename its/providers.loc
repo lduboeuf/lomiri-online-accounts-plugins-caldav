@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<locatingRules>
+  <locatingRule name="providers" pattern="*.provider">
+    <documentRule localName="provider" target="providers.its"/>
+  </locatingRule>
+</locatingRules>

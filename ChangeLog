@@ -1,0 +1,60 @@
+2024-10-31 Mike Gabriel
+
+        * Release 0.5.0 (HEAD -> main, tag: 0.5.0)
+        * Merge branch 'personal/gberh/i18n-rename' into 'main' (56c6b0a)
+        * debian/control: Rules-Requires-Root: field and set it to 'no'.
+          (3c75c6c)
+        * debian/control: Fix wrong provider name in LONG_DESCRIPTION.
+          (a413101)
+
+2024-10-24 Lionel Duboeuf
+
+        * Lomiri.OnlineAccounts -> SSO.OnlineAccounts (5d156b4)
+
+2024-08-09 Guido Berhoerster
+
+        * Add Lomiri namespace to Buteo profiles (f3bd7b6)
+        * Fix translation domain in service and provider files (c6e9570)
+
+2024-06-24 Mike Gabriel
+
+        * po/*.po: Auto-generate no-content-yet translation files. (334e878)
+        * d/lomiri-online-accounts-plugins-caldav-generic.install: Drop
+          leading slash. (f5a144a)
+        * d/lomiri-online-accounts-plugins-caldav-generic.install: Add
+          locale files. (48a280a)
+        * debian/copyright: Use correct license (and other adjustments).
+          (058a171)
+        * debian/control: Various improvements (description, dependencies,
+          etc.). (44e15c8)
+        * accounts/plugin/CMakeLists.txt: Install QML plugin files to
+          PLUGIN_QML_DIR/generic-caldav. (440f02d)
+        * debian/control: Enforce liblomiri-online-accounts-plugin-dev (>=
+          0.13) in B-D. (59ca45e)
+        * CMakeLists.txt: Switch to using LomiriOnlineAcountsPlugin.pc
+          (available since lomiri-online-accounts 0.12). (4ce7a21)
+
+2024-06-04 Guido Berhoerster
+
+        * Adjust dependencies and installation paths in packages (dd2e237)
+        * Rename packages (b79c69c)
+        * Get install paths via pkg-config (badcb7f)
+
+2024-06-03 Guido Berhoerster
+
+        * Add de translations (fa1087c)
+        * Fix i18n (c76c910)
+        * Rename project to lomiri-online-accounts-plugins-caldav (11621c7)
+        * Correctly specify CMake languages (138ffff)
+
+2024-06-06 Mike Gabriel
+
+        * Merge branch 'personal/gberh/readme-license' into 'main' (1c10945)
+
+2024-06-05 Guido Berhoerster
+
+        * Add README.md file with copyright and license (886dbec)
+
+2024-05-29 Lionel Duboeuf
+
+        * Setup project (e40ee7d)

@@ -1,0 +1,6 @@
+usr/share/accounts/services/lomiri/lomiri-generic-caldav.service
+usr/share/accounts/providers/lomiri/generic-caldav.provider
+usr/share/locale/*/LC_MESSAGES/*.mo
+usr/share/lomiri-online-accounts/qml-plugins/generic-caldav
+usr/share/icons/suru/apps/128/online-accounts-caldav.png
+etc/buteo/profiles/sync/lomiri-generic-caldav.xml
