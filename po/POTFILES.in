@@ -2,4 +2,4 @@ accounts/plugin/qml/NewAccount.qml
 accounts/services/lomiri-generic-caldav.service.in
 accounts/services/lomiri-nextcloud-caldav.service.in
 accounts/services/lomiri-owncloud-caldav.service.in
-accounts/services/lomiri-google-caldav.service.in
+accounts/services/google-calendars.service.in

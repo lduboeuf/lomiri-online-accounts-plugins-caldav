@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile name="lomiri-nextcloud-caldav" type="sync" >
-    <key value="calendar" name="category"/>
-    <key value="lomiri-nextcloud-caldav" name="remote_service_name"/>
+    <key name="category" value="calendar" />
+    <key name="remote_service_name" value="lomiri-nextcloud-caldav"/>
     <key name="destinationtype" value="online"/>
-    <key name="enabled" value="false"/>
+    <key name="enabled" value="true"/>
     <key name="hidden" value="false"/>
     <key name="use_accounts" value="true"/>
 

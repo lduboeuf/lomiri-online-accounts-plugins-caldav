@@ -3,7 +3,7 @@
     <key value="calendar" name="category"/>
     <key value="lomiri-owncloud-caldav" name="remote_service_name"/>
     <key name="destinationtype" value="online"/>
-    <key name="enabled" value="false"/>
+    <key name="enabled" value="true"/>
     <key name="hidden" value="false"/>
     <key name="use_accounts" value="true"/>
 

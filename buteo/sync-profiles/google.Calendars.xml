@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile type="sync" name="google.Calendars">
+    <key name="category" value="calendar"/>
+    <key name="remote_service_name" value="google-calendars"/>
+    <key name="destinationtype" value="online"/>
+    <key name="enabled" value="true"/>
+    <key name="hidden" value="false"/>
+    <key name="scheduled" value="false"/>
+    <key vname="sync_always_up_to_date" alue="true"/>
+    <key name="sync_since_days_past" value="30"/>
+    <key name="use_accounts" value="true"/>
+    <key name="sync_on_change" value="true"/>
+    <key name="sync_on_change_after" value="60"/>
+    <profile name="google-calendars" type="client">
+        <key name="Sync Direction" value="two-way"/>
+        <key name="Sync Protocol" value="gdata"/>
+        <key name="Sync Transport" value="HTTP"/>
+        <key name="conflictpolicy" value="prefer remote"/>
+    </profile>
+</profile>
