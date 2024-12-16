@@ -2,7 +2,6 @@ set(SYNC_PROFILE_FILES
     lomiri-generic-caldav.xml
     lomiri-owncloud-caldav.xml
     lomiri-nextcloud-caldav.xml
-    google.Calendars.xml
 )
 
 foreach(SYNC_PROFILE_FILE ${SYNC_PROFILE_FILES})

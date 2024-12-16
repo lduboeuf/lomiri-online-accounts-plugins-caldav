@@ -2,7 +2,6 @@ set(SERVICE_FILES
     lomiri-generic-caldav.service
     lomiri-owncloud-caldav.service
     lomiri-nextcloud-caldav.service
-    google-calendars.service
 )
 
 gettext_merge_xml_translations("${SERVICE_FILES}")

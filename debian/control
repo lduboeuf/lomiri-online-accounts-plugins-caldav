@@ -62,18 +62,3 @@ Description: Online account plugin for Lomiri - Generic CalDAV
  .
  This package provides a LOA plugin for managing generic CalDAV server
  credentials.
-
-Package: lomiri-online-accounts-plugin-google-caldav
-Architecture: all
-Multi-Arch: foreign
-Pre-Depends: ${misc:Pre-Depends},
-Conflicts: lomiri-sync-monitor-loa
-Depends: ${misc:Depends},
-         qml-module-lomiri-components,
-         qml-module-lomiri-onlineaccounts,
-Description: Online account plugin for Lomiri - Google Calendar
- Lomiri Online Accounts is an API / library framework to mediate
- centralized account management for remote services.
- .
- This package provides a LOA plugin for managing generic CalDAV server
- credentials.
